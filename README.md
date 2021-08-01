@@ -33,8 +33,7 @@ Ideia da psicóloga Michelle Carvalho.
   $ git clone https://github.com/jjoaovitor7/HourWarning
 
   // Entrar no diretório
-  $ cd HourWarning
-  $ cd HourWarning-linux-x64
+  $ cd HourWarning/HourWarning-linux-x64
 
   // Executar o programa (Linux)
   $ ./HourWarning

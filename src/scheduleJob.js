@@ -1,24 +1,16 @@
-// const schedule = require("node-schedule");
-
-// function showAtEachHour() {
-//   let j = schedule.scheduleJob("* * * * *", function () {
-//     alert("Tá na hora de descansar um pouco ,_,");
-//   });
-// }
+const btnStart = document.querySelector("#btnStart");
 
 function showAtEachOneHour() {
-  document.querySelector(".btn-start").setAttribute("hidden", true);
+  btnStart.setAttribute("hidden", true);
   let time = 3600;
   const timeInterval = setInterval(() => {
-    document.getElementById("hour-countdown").innerHTML = time -= 1;
+    document.getElementById("hourCountdown").innerHTML = time -= 1;
     if (time == 0) {
       alert("Tá na hora de descansar um pouco ,_,");
-      document.querySelector(".btn-start").removeAttribute("hidden");
+      btnStart.removeAttribute("hidden");
       clearInterval(timeInterval);
     }
   }, 1000);
 }
 
-document
-  .querySelector(".btn-start")
-  .addEventListener("click", showAtEachOneHour);
+btnStart.addEventListener("click", showAtEachOneHour);
