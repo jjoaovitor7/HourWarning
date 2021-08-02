@@ -4,17 +4,17 @@
   "description": "Aviso a cada uma hora.",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "build": "electron-packager . HourWarning --platform linux --arch x64 --out HourWarning/"
+    "start": "electron ."
   },
-  "keywords": ["hour", "warning", "linux"],
+  "keywords": [
+    "hour",
+    "warning",
+    "linux"
+  ],
   "author": "jjoaovitor7",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^11.2.0",
-    "electron-packager": "^15.3.0"
+    "electron": "^11.2.0"
   },
-  "dependencies": {
-    "node-schedule": "^1.3.2"
-  }
+  "dependencies": {}
 }
