@@ -2,7 +2,6 @@ namespace App
 {
     using System;
     using Gtk;
-    using System.Timers;
     using System.Threading;
     using System.Threading.Tasks;
     using System.Windows.Forms;
