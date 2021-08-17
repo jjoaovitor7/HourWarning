@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <a href="https://forthebadge.com"> <img src="https://forthebadge.com/images/badges/uses-html.svg" /> </a>
-  <a href="https://forthebadge.com"> <img src="https://forthebadge.com/images/badges/uses-css.svg" /> </a>
-  <a href="https://forthebadge.com"> <img src="https://forthebadge.com/images/badges/uses-js.svg" /> </a>
+  <a href="https://forthebadge.com">
+    <img src="https://forthebadge.com/images/badges/made-with-c-sharp.svg" />
+  </a>
 </p>
 
 ## :scroll: Sobre
@@ -20,9 +20,7 @@ Ideia da psicóloga Michelle Carvalho.
 
 ## :rocket: Tecnologias utilizadas
 
-- HTML
-- CSS
-- JavaScript (Electron)
+- C# (GTK#)
 
 ---
 
@@ -35,9 +33,11 @@ Ideia da psicóloga Michelle Carvalho.
   // Entrar no diretório
   $ cd HourWarning
 
-  // Executar o programa (Linux)
-  $ ./HourWarning-0.1-beta.AppImage
-  // Ou clicar 2 vezes no arquivo
+  // Compilar o programa
+  $ mcs -pkg:gtk-sharp-2.0 -pkg:dotnet  main.cs
+
+  // Executar o programa
+  $ mono main.exe
 ```
 
 ---
